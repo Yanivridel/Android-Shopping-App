@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "987221605710",
+    "firebase_url": "https://shophoria-ccfac-default-rtdb.firebaseio.com",
+    "project_id": "shophoria-ccfac",
+    "storage_bucket": "shophoria-ccfac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987221605710:android:774145438e2c83c7f9b21f",
+        "android_client_info": {
+          "package_name": "com.example.shoppingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNva21XU4TLmb1EFC08MoxsU_PId6jMyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

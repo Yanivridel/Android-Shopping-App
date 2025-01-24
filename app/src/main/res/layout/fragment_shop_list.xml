@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.fragment_shop_list">
+
+    <!-- Top Label: Logged in user -->
+    <TextView
+        android:id="@+id/loggedInUserLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Logged in as: Username"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#f0f0f0" />
+
+    <!-- Button: Go to Cart -->
+
+    <!-- RecyclerView for Products -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleViewApp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"/>
+
+    <Button
+        android:id="@+id/goToCartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/auth_buttons"
+        app:backgroundTint="@null"
+        android:text="Go to Cart"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
