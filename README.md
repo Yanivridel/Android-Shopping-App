@@ -20,6 +20,6 @@ A simple shopping application that allows users to browse products, add them to 
 - **Toast** for displaying success and error messages
 - **Shared Preferences** (Optional for storing user sessions)
 
-| ![Image 1](/assets/shoppingAppLogin.jepg) | ![Image 2](/assets/shoppingAppMain.jepg) |
+| ![Image 1](shoppingAppLogin.jpeg) | ![Image 2](shoppingAppMain.jpeg) |
 |------------------------------|------------------------------|
-| Description of Image 1       | Description of Image 2       |
+| Login / Register Fragment - through Firebase DB | Main app add / remove items |
